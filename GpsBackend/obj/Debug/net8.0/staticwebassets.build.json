@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2KcKu9oiaoNRbvHuTj8nTTVVYk8Eyd8KtT7xmoPTfr8=",
+  "Source": "GpsBackend",
+  "BasePath": "_content/GpsBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
