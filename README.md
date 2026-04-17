@@ -25,7 +25,11 @@ Repositories/ → Reads data from JSON file
 DTOs/ → Data models
 Configuration/ → App settings (file path, etc.)
 
+## Screenshot
 
+### GPS Dashboard Application
+![GPS App](./screenshots/app.png)
+![GPS Map](./screenshots/map.png)
 ---
 
 ## Setup
