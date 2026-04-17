@@ -6,17 +6,13 @@ import SummaryPanel from "./components/SummaryPanel";
 import { getGpsData } from "./apis/gpsApi";
 
 export default function App() {
-  // =========================
-  // CORE DATA
-  // =========================
+ 
   const [track, setTrack] = useState([]);
   const [stats, setStats] = useState(null);
   const [summary, setSummary] = useState(null);
   const [chart, setChart] = useState([]);
 
-  // =========================
-  // UI STATE
-  // =========================
+  
   const [loading, setLoading] = useState(true);
   const [chartLoading, setChartLoading] = useState(true);
 
@@ -25,9 +21,7 @@ export default function App() {
 
   const intervalRef = useRef(null);
 
-  // =========================
-  // LOAD DATA (FAST FIRST, HEAVY LATER)
-  // =========================
+  
   useEffect(() => {
     const controller = new AbortController();
 
@@ -61,9 +55,7 @@ export default function App() {
     return () => controller.abort();
   }, []);
 
-  // =========================
-  // PLAYBACK ENGINE
-  // =========================
+  
   useEffect(() => {
     if (!playing || track.length === 0) return;
 
@@ -80,9 +72,7 @@ export default function App() {
     return () => clearInterval(intervalRef.current);
   }, [playing, track]);
 
-  // =========================
-  // LOADING STATE
-  // =========================
+  
   if (loading) {
     return (
       <div style={{ padding: 20 }}>

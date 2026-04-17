@@ -37,7 +37,7 @@ Configuration/ → App settings (file path, etc.)
 ### Requirements
 - .NET 8 SDK
 
-### Run the project
+### Run the backend project
 
 dotnet run
 
@@ -98,6 +98,10 @@ The app connects to a .NET backend and shows results like Maximum SOG, VMG, and 
 - App Layer → combines all components into dashboard  
 
 ---
+
+### Run the backend project
+
+npm run dev 
 
 ## Docker Setup
 
