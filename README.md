@@ -88,7 +88,7 @@ The app connects to a .NET backend and shows results like Maximum SOG, VMG, and 
 
 ## Project Structure
 
-- API Layer → 'getapi.js' (handles backend calls)  
+- API Layer → `getapi.js` (handles backend calls)  
 - HTTP Client → `httpClient.js` (Axios setup + interceptors)  
 - Components:
   - `ChartPanel.jsx` → performance charts  
