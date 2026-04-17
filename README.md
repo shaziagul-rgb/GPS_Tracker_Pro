@@ -37,7 +37,7 @@ Configuration/ → App settings (file path, etc.)
 ### Requirements
 - .NET 8 SDK
 
-### Run the backend project
+### Run the Backend project
 
 dotnet run
 
@@ -99,7 +99,7 @@ The app connects to a .NET backend and shows results like Maximum SOG, VMG, and 
 
 ---
 
-### Run the backend project
+### Run the Frontkend project
 
 npm run dev 
 
