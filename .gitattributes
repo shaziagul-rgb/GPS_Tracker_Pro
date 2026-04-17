@@ -1,1 +1,2 @@
 GpsBackend/DataFiles/data.json filter=lfs diff=lfs merge=lfs -text
+GpsBackend/bin/Debug/net8.0/DataFiles/data.json filter=lfs diff=lfs merge=lfs -text
