@@ -95,4 +95,11 @@ The app connects to a .NET backend and shows results like Maximum SOG, VMG, and 
 
 ---
 
+## Docker Setup
+
+Run full stack using Docker Compose:
+
+```bash
+docker compose up --build
+
 
