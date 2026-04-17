@@ -29,7 +29,7 @@ Configuration/ → App settings (file path, etc.)
 
 ### GPS Dashboard Application
 ![GPS App](./screenshots/app.png)
-![GPS Map](./screenshots/map.png)
+
 ---
 
 ## Setup
