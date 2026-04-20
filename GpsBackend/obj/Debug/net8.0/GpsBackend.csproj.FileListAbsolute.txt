@@ -98,3 +98,4 @@
 /Users/shaziagul/GPS_Tracker_Pro/GpsBackend/obj/Debug/net8.0/GpsBackend.genruntimeconfig.cache
 /Users/shaziagul/GPS_Tracker_Pro/GpsBackend/obj/Debug/net8.0/ref/GpsBackend.dll
 /Users/shaziagul/GPS_Tracker_Pro/GpsBackend/obj/Debug/net8.0/GpsBackend.sourcelink.json
+/Users/shaziagul/GPS_Tracker_Pro/GpsBackend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
